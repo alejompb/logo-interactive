@@ -29,19 +29,19 @@
     Keep this a secret.
 """
 
-__author__ = 'pete.frisella@gmail.com (Pete Frisella)'
+__author__ = 'logointeractive@gmail.com (Accenture Interactive)'
 
 # OAuth 2.0 Client Settings
 AUTH_CONFIG = {
-    'OAUTH_CLIENT_ID': '737294836861-bicoobtlhp8ae95850paln3he57efe8s.apps.googleusercontent.com',
-    'OAUTH_CLIENT_SECRET': 'uGvTYMQu-7bKM9vPzrAed2a4',
+    'OAUTH_CLIENT_ID': '35904216326-ganp3ma98sefp1i4fla4j1k91ndv4e2v.apps.googleusercontent.com',
+    'OAUTH_CLIENT_SECRET': 'wZuLs1iRTkAbT0WZlYnL-Vdf',
 
     # E.g. Local Dev Env on port 8080: http://localhost:8080
     # E.g. Hosted on App Engine: https://your-application-id.appspot.com
     'OAUTH_REDIRECT_URI': '%s%s' % (
-        'https://logo-encantado-interactive.appspot.com',
+        'https://logo-personalization.appspot.com',
         '/admin/auth')
 }
 
 # XSRF Settings
-XSRF_KEY = 'ajskdlfñflkdjsalsdkfjaoijwoirwerothjglsfgñoijk'
+XSRF_KEY = 'asiajrotijsodñfjlñsdklfjsñlkfj'
